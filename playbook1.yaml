@@ -3,6 +3,6 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: Print welcome to my repository
+    - name: Print annie in ansible automation platform dashboard
       ansible.builtin.debug:
         msg: "welcome to my repository"
