@@ -1,0 +1,8 @@
+---
+- name: Print welcome message
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Print welcome to my repository
+      ansible.builtin.debug:
+        msg: "welcome to my repository"
